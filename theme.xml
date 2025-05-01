@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-Theme: MinUArk-ARKOS_4:3
+Theme: MinUArk-ARKOS_quatro3
 Original author: Vidnez
 Mod 4:3: Aldan 
 License: creative commons CC-BY-NC-SA
@@ -42,7 +42,7 @@ License: creative commons CC-BY-NC-SA
 	
     <menuTextSmall name="menutextsmall">
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
-      <fontSize>0.02</fontSize>
+      <fontSize>0.03</fontSize>
       <color>ffffff</color>
     </menuTextSmall>
 	
@@ -92,14 +92,14 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <backgroundCornerSize>1 1</backgroundCornerSize>
       <padding>1 1</padding>
-      <fontSize>0.049</fontSize>
-      <pos>0.051 0.167</pos>
-      <size>0.6 0.7</size>
+      <fontSize>0.039</fontSize> <!-- 0.049 -->
+      <pos>0.051 0.1</pos> <!-- 0.051 0.167 | v0.8 = 0.051 0.1 -->
+      <size>0.6 0.8</size> <!-- 0.6 0.7 -->
       <alignment>left</alignment>
-      <itemsBeforeCenter>5</itemsBeforeCenter>
-      <horizontalMargin>0.03</horizontalMargin>
+      <itemsBeforeCenter>2</itemsBeforeCenter> <!-- 5 -->
+      <horizontalMargin>0.04</horizontalMargin> <!-- 0.03 | v0.7 = 0.05 --> 
       <origin>0 0</origin>
-      <lineSpacing>1.8</lineSpacing>
+      <lineSpacing>2.4</lineSpacing> <!-- 1.8 | v0.7 = 2.0 | v0.8 = 2.2 -->
       <selectorImagePath>${selectortyped}</selectorImagePath>
       <selectorOffsetY>-0.009</selectorOffsetY>
       <selectorOffsetX>0.2</selectorOffsetX>
@@ -112,10 +112,10 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <forceUppercase>0</forceUppercase>
       <size>0.9 0.025</size>
-      <pos>-0.23 0.955</pos>
+      <pos>-0.19 0.95</pos>
       <color>${cinfotext}</color>
       <alignment>center</alignment>
-      <fontSize>0.026</fontSize>
+      <fontSize>0.033</fontSize> <!-- 0.026 | v0.7 = 0.035  -->
       <zIndex>3</zIndex>
     </text>
 
@@ -156,17 +156,18 @@ License: creative commons CC-BY-NC-SA
       <primaryColor>ffffff90</primaryColor>
       <secondaryColor>ffffff90</secondaryColor>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
-      <fontSize>0.049</fontSize>
-      <pos>0.054 0.167</pos>
-      <size>0.9 0.7</size>
+      <fontSize>0.039</fontSize> <!-- 0.049 -->
+      <pos>0.051 0.1</pos>
+      <size>0.8 0.8</size>
       <alignment>left</alignment>
-      <horizontalMargin>0.03</horizontalMargin>
+      <itemsBeforeCenter>2</itemsBeforeCenter>
+      <horizontalMargin>0.04</horizontalMargin> <!-- 0.03 --> 
       <origin>0 0</origin>
-      <lineSpacing>2</lineSpacing>
+      <lineSpacing>2.4</lineSpacing> <!-- 2 | v0.8 = 2.2 -->
       <selectorImagePath>${selectortypeb}</selectorImagePath>
-      <selectorOffsetY>-0.027</selectorOffsetY>
+      <selectorOffsetY>-0.029</selectorOffsetY> <!-- v0.9 = -0.009 -->
       <selectorOffsetX>0</selectorOffsetX>
-      <selectorHeight>0.141</selectorHeight>
+      <selectorHeight>0.144</selectorHeight> <!-- 0.141 -->
     </textlist>
 
     <image name="background" extra="true">
@@ -184,10 +185,10 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <forceUppercase>0</forceUppercase>
       <size>0.9 0.025</size>
-      <pos>-0.23 0.955</pos>
+      <pos>-0.19 0.95</pos>
       <color>${cinfotext}</color>
       <alignment>center</alignment>
-      <fontSize>0.026</fontSize>
+      <fontSize>0.033</fontSize>  <!-- 0.26 -->
       <zIndex>2</zIndex>
     </text>
 
@@ -317,12 +318,12 @@ License: creative commons CC-BY-NC-SA
   
     <carousel name="systemcarousel" extra="true">
       <type>vertical</type>
-      <pos>0.08 0.15</pos>
+      <pos>0.02 0.1</pos> <!-- 0.08 0.15 -->
       <size>1 0.7</size>
       <origin>0 0</origin>
       <color>ffffff00</color>
-      <maxLogoCount>7</maxLogoCount>
-      <logoScale>1</logoScale>
+      <maxLogoCount>5</maxLogoCount> <!-- 7 -->
+      <logoScale>0.8</logoScale> <!-- 1 -->
       <itemStacking>descending</itemStacking>
       <logoSize>0.8 0.8</logoSize>
       <logoPos>0 0</logoPos>

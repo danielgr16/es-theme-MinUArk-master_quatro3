@@ -1,7 +1,7 @@
 
 
 
-<h1 align="center">A theme for 1:1 screens based on ShaunInman's MinUI</h1>
+<h1 align="center">Mod for R36S</h1>
 
 
 ![social](https://github.com/user-attachments/assets/6a342b6c-18d8-4eef-a848-6444123d128c)
